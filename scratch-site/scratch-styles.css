@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: #7d7777;
+}
+
+header, footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #303030;
+    padding: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    gap: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1, h2, h3, p, a, li {
+    color: #f5f5f5;
+}
+
+.main-content {
+    margin-inline: 25px;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    margin-bottom: 15px;
+
+    img {
+        margin-top: 25px;
+        max-width: 250px;
+        max-height: 300px;
+    }
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background: none;
+    color: white
+}
