@@ -17,6 +17,10 @@ header, footer {
     gap: 5px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 h1 {
     margin: 0;
 }
