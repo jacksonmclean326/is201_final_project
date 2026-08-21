@@ -12,6 +12,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family:
     system-ui,
     Segoe UI,
@@ -22,8 +24,22 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 24px;
+  margin: 0;
   padding-bottom: 64px;
+}
+
+header {
+  display: flex;
+  padding: 2em;
+  width: 100%;
+  margin-bottom: 24px;
+  background: linear-gradient(90deg, #4aa3ff, #0b79d0);
+
+  a {
+    margin-left: auto;
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 main {
